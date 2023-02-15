@@ -31,7 +31,6 @@ nav ul li {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: black;
@@ -41,4 +40,95 @@ footer {
   justify-content: flex-start;
   align-items : center;
   padding: 25px 100px 30px 100px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items : center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 100px 50px 100px;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items : center;
+  padding: 25px 25px 25px 25px;
+  width: 300px;
+  height: 420px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+
+.card p {
+  font-size: 15px;
+  padding: 10px 0 10px 0;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items : center;
+  width: 100%;
+}
+
+.padding-10 {
+  padding: 10px 0 10px 0;
+}
+
+.break-line {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.card .comment-like{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items : center;
+  width: 100%;
+  padding: 0;
+}
+
+.comments{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  margin-bottom: 1vh;
+}
+
+.comments span{
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: rgb(94, 108, 122);
+}
+
+.comments img{
+  height: 1.6vw;
+  width: 1.6vw;
+}
+
+.comment-like img{
+  height: 1.6vw;
+  width: 1.6vw;
 }
